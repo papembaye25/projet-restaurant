@@ -65,10 +65,21 @@
 }
 .menu{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(/assets/img/menu-banner1.jpg) no-repeat center fixed;
-    height: 1200px;
+    height: 1500px;
     background-size: cover;
     /* background-attachment: fixed; */
 }
-.menu .linke{
-    color: red;
+.menu .nav-link{
+    color: var(--bs-light);
+    /* border-bottom: 2px solid red; */
+}
+.menu .nav-link:hover{
+    /* border: 2px solid blue; */
+    color: var(--bs-primary);
+}
+.menu .nav-link:active{
+    background-color: var(--bs-teal);
+}
+.menu .titre3{
+    text-shadow: 5px 5px 5px blue;
 }
